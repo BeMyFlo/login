@@ -1,8 +1,8 @@
 <?php
-$username = "root"; // Khai báo username
-$password = "";      // Khai báo password
-$server   = "localhost";   // Khai báo server
-$dbname   = "antoan";      // Khai báo database
+$username = "b614a17f77afaa"; // Khai báo username
+$password = "f6491cde";      // Khai báo password
+$server   = "us-cdbr-east-06.cleardb.net";   // Khai báo server
+$dbname   = "heroku_7896a432c89f43a";      // Khai báo database
 
 // Kết nối database tintuc
 $connect = new mysqli($server, $username, $password, $dbname);
