@@ -1,0 +1,15 @@
+{
+    "name": "bemyflo/thongha",
+    "description": "login",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ha Minh Thong",
+            "email": "haminhthong0811@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "some-dependency": "^1.0"
+    }
+}
