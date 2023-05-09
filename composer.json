@@ -1,15 +1,16 @@
 {
-    "name": "bemyflo/thongha",
-    "description": "login",
-    "type": "library",
+    "name": "haminh/login",
+    "description": "fb",
+    "autoload": {
+        "psr-4": {
+            "Haminh\\Login\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "Ha Minh Thong",
+            "name": "ThongHa",
             "email": "haminhthong0811@gmail.com"
         }
     ],
-    "require": {
-        "php": "^7.4",
-        "some-dependency": "^1.0"
-    }
+    "require": {}
 }
