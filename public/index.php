@@ -1,6 +1,6 @@
 <?php
-$username = "b614a17f77afaa"; // Khai báo username
-$password = "f6491cde";      // Khai báo password
+$username = "bb7be8c50e96b9"; // Khai báo username
+$password = "70a90adf";      // Khai báo password
 $server   = "us-cdbr-east-06.cleardb.net";   // Khai báo server
 $dbname   = "heroku_267bb0a4e81edfb";      // Khai báo database
 
