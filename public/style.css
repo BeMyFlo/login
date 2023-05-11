@@ -8,9 +8,6 @@ body {
 /* PC */
 @media (min-width: 64em)
  {
-  .mobile-img {
-    display: none;
-  }
 
 .box {
     display: flex;
